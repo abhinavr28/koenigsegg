@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Teko', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+
+    background-color: rgba(0, 255, 195, 0);
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    margin-left: 30%;
+    
+    
+    
+}
+
+nav ul{
+    display: flex;
+  
+}
+
+nav ul li a{
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.978);
+    font-size: larger;
+    margin: 60px;
+    text-decoration: none;
+   
+}
+
+
+
+.logo{
+    display: flex;
+   margin-left: -30%;
+   margin-top: 10px;
+}
+.kon{
+    margin-left: -250%;
+}
+#videos video{
+    width: 100%;
+    
+    
+        height: 100%;
+        z-index: -1;
+        position: relative;
+        opacity: 1;
+    
+}
+
+/**
+ * Base
+ */
+ body {
+    font-size: 100%;
+    
+  }
+   
+  /* Fallback for hidden attribute */
+  hidden {
+    display: none;
+  }
+  .slider {
+    position: relative;
+    margin-top: 8em;
+    top:120px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    width: 40.625rem;
+    height: 76.25rem;
+    box-shadow: 0 4px 14px rgba(255, 0, 0, 0);
+  }
+  .slider__list {
+    position: absolute;
+    left: 0;
+    width: 162.5rem;
+  }
+  .slider__slide {
+    float: left;
+  }
+  .slider__control {
+    margin-right: auto;
+    margin-left: auto;
+    width: 4.5rem;
+    font-family: sans-serif;
+  }
+  .slider__control label {
+    position: relative;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 4.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: transparent;
+    background: #ddd;
+    border-radius: 2rem;
+    cursor: pointer;
+    -webkit-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+  }
+  .slider__control label:before {
+    content: "autoplay";
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    color: #333;
+   font-size: .95rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .slider__control label:after {
+    content: "";
+    position: absolute;
+   top: .25rem;
+   left: .25rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    background: #fff;
+    -webkit-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .slider__switch:checked + .slider > .slider__list {
+    -webkit-animation-name: autoplay;
+    animation-name: autoplay;
+    /* This will change the time it takes to move to next slide */
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  .slider__switch:checked + .slider + .slider__control > label { background: #455a64; }
+  .slider__switch:checked + .slider + .slider__control > label:after { left: 2.75rem; }
+
+  @-webkit-keyframes 
+autoplay {   /* position of the first slide */
+  0% {
+ left: 0;
+}
+  /* position of the second slide */
+  25% {
+ left: -40.625rem;
+}
+  /* position of the third slide */
+  50% {
+ left: -81.25rem;
+}
+  /* position of the fourth slide */
+  100% {
+ left: -121.875rem;
+}
+}
+@keyframes 
+autoplay {   /* position of the first slide */
+  0% {
+ left: 0;
+}
+  /* position of the second slide */
+  25% {
+ left: -40.625rem;
+}
+  /* position of the third slide */
+  50% {
+ left: -81.25rem;
+}
+  /* position of the fourth slide */
+  100% {
+ left: -121.875rem;
+}
+}
+#gallery{
+    background-image: url(https://media.evo.co.uk/image/private/s--U-9ptnsg--/v1586442737/evo/2020/04/Koenigsegg%20Jesko%20Absolut%20new%20pictures.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: -10%;
+}
+
+.overlay{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    color: white;
+    text-shadow: 2px 4px 6px rgb(0, 0, 0);
+    font-weight: bolder;
+
+}
+.overlay .inner h1{
+    font-size: 60px;
+}
+#gallery2{
+    background-image: url(https://wallpapercave.com/wp/wp5032798.jpg);
+    background-size: cover;
+    height: 800px;
+    margin-top: -10%;
+}
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 2px 4px 6px rgb(0, 0, 0);
+    margin: 15px;
+    text-shadow: 4px 5px 6px ;
+}
+.pic{
+    display: flex;
+}
+
+.pic img{
+    width: 500px;
+    border-radius: 7%;
+}
+h4{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 4px 6px rgb(89, 0, 254);
+    font-weight: bolder;
+    font-size: 60px;
+}
+.intro p{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* service */
+.row{
+    display: flex;
+ }
+ .box{
+    width: 700px;
+    height: 600px;
+    margin: 2%;
+    background: linear-gradient(to top,rgba(139, 135, 141, 0.938)50%,rgba(0, 208, 255, 0)50%);
+    background-size:100% 200%;
+    transition: all 2.6s;
+ }
+ .box:hover{
+    background-position: right bottom;
+    border: 4px ridge rgb(255, 255, 255);
+    box-shadow: 3px 4px 8px 9px black;
+    border-radius: 15px;
+ }
+ .box img{
+width: 100%;
+height: 40%;
+border-radius: 5%;
+ }
+ .box h5{
+    margin: 5px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 6px rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 400%;
+ }
+ .box p{
+    text-align: justify;
+    padding: 10px;
+ }
+ form{
+    width: 700px;
+    margin-left: 500px;
+ }
+ input{
+    width: 100%;
+    margin: 6%;
+ }
+ button{
+    color: aliceblue;
+    background-color: black;
+ }
+ #gallery3{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/koenigsegg-jesko-2880x1800-10252.jpg);
+    background-size: cover;
+    height: 1200px;
+    margin-top: -10%;
+ }
+
+ .cv{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 15%;
+    margin-left: 20px;
+
+
+  z-index: 1;
+        position: relative;
+        opacity: 1;
+ }
+ #contact{
+    width: 500px;
+    
+    
+ }
+ .jithin{
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+    margin-left: 500px;
+ }
